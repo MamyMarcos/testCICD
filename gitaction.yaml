@@ -47,3 +47,7 @@ jobs:
           ls ${{ runner.tool_cache }}
      
       - run: echo "This job's status is ${{ job.status }}."
+
+  Second-job: 
+     name: second-job
+     runs-on: ubuntu-lastest
